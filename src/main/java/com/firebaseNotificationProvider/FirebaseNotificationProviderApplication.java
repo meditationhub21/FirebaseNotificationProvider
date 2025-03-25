@@ -19,7 +19,7 @@ import java.io.IOException;
 public class FirebaseNotificationProviderApplication {
 
 	FileInputStream serviceAccount =
-			new FileInputStream("src\\main\\resources\\firebase-service-account.json");
+			new FileInputStream("src/main/resources/firebase-service-account.json");
 
 	FirebaseOptions firebaseOptions = FirebaseOptions
 			.builder()
