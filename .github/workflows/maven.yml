@@ -13,6 +13,7 @@ permissions:
   security-events: write
   id-token: write
   packages: write
+  dependencies: write
 
 on:
   push:
